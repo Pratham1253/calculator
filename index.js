@@ -19,7 +19,7 @@ function printNum(event)
        console.log(screen.value)
         return;
     }
-    else if('+-X/'.includes(buttonValue))
+    else if('X/-+'.includes(buttonValue))
     {
         if(screen.value.includes('+') || screen.value.includes('-') || screen.value.includes('X') || screen.value.includes('/'))
         {
