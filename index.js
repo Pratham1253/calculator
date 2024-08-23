@@ -58,7 +58,7 @@ function printNum(event)
         ans = performDiv(screen.value)
      }  
 
-     if(ans === undefined)
+     if(ans == "undefined")
         {
             screen.value="";
         }       
